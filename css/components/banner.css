@@ -1,0 +1,36 @@
+.banner {
+	background-image: linear-gradient(125deg,rgba(248,203,193,0.6) 50%, rgba(243,168,152,0.4)40%),url(../../images/back.jpeg);
+	color: black;
+	padding: 15Opx 0px;
+	background-size: cover;
+}
+
+.banner h1 {
+	font-size: 50px;
+}
+.banner h2 {
+	font-size: 30px;
+	font-weight: light;
+	opacity: 0.8;
+	margin-bottom: 40px;
+}
+.banner {
+ 	width: 700px;
+ 	margin: 0 auto;
+ }
+
+ @media (max-width: 960px) {
+ 	.banner {
+ 		width: 700px;
+ 	}
+ }
+ @media (max-width: 720px) {
+ 	.banner {
+ 		width: 500px;
+ 	}
+ }
+ @media (max-width: 540px) {
+ 	.banner {
+ 		width: 300px;
+ 	}
+ }
